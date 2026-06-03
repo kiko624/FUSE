@@ -22,7 +22,6 @@ WHITEBOX_TASKS = [
 
     {"method": "fgsm_attack", "mode": "untargeted", "target": "original"},
     {"method": "bim_attack", "mode": "untargeted", "target": "original"},
-    {"method": "basic_cw_attack", "mode": "untargeted", "target": "original"},
     {"method": "fre_cw_attack", "mode": "untargeted", "target": "original"},
     {"method": "mi_fgsm_attack", "mode": "untargeted", "target": "original"},
     {"method": "ni_fgsm_attack", "mode": "untargeted", "target": "original"},
